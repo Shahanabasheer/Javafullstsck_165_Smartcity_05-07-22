@@ -1,0 +1,144 @@
+@charset "ISO-8859-1";
+/*.....Admin inbox...........*/
+#body_adminInbox {
+	background-image: url("images/bg_Adminhome.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: serif;
+	margin: 0;
+	padding: 0;
+	height: 90%;
+	font-family: serif;
+	background-repeat: no-repeat;
+}
+
+.admin_home_head {
+	position: relative;
+	width: 700px;
+}
+
+#adminInbox_d1 {
+	/*border: 1px dashed #669966;*/
+	height: 40px;
+}
+
+#admininbox h3 {
+	line-height: 60px;
+	font-size: 40px;
+	margin: 0;
+	margin-left: 15px;
+	color: #008080;
+	width: 40%;
+	text-align: left;
+	text-shadow: 2px 2px 5px;
+}
+
+#adminInbox_d1 a {
+	margin-left: 30px;
+	font-size: 15px;
+	font-weight: bold;
+	width: 150px;
+	display: inline-block;
+}
+
+#logoutbar {
+	position: relative;
+	right: 10px;
+	left: 150px;
+	display: inline-block;
+}
+
+#logoutbar a {
+	display: inline-block;
+	font-family: serif;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+#logoutbar a:hover {
+	background-color: #008080;
+}
+
+#adminInbox_d2 {
+	font-size: 15px;
+	position: relative;
+	height: 350px;
+	width: 150px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.header {
+	font-size: 20px;
+	font-weight: bold;
+	color: #008080;
+	margin-left: 25px;
+}
+
+#adminInbox_d3 {padding-top25px;
+	display: inline-block;
+	margin-left: 10px;
+	position: relative;
+	height: 300px;
+}
+
+#adminInbox_d3 button {
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+#table_inbox {
+	border-collapse: collapse;
+	margin-left: 25px;
+	font-size: 15px;;
+	font-family: sans-serif;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	position: relative;
+}
+
+#table_inbox tr th {
+	background-color: #008080;
+	color: white;
+	text-align: left;
+}
+
+#table_inbox th, #table_inbox td {
+	padding: 12px 15px;
+}
+
+#table_inbox tbody tr {
+	border-bottom: 1px solid #dddddd;
+}
+
+#table_inbox tbody tr:nth-of-type(even) {
+	background-color: #f3f3f3;
+}
+
+#table_inbox tbody tr:last-of-type {
+	border-bottom: 2px solid #009879;
+}
+
+/*.....Admin compose msg....*/
+#body_ComposeMsg {
+	background-color: white;
+	font-family: 'Open Sans', Arial, Helvetica, Sans-Serif;
+}
+
+#modalCompose {
+	position: relative;
+	left: 30%;
+	margin-top: 5%;
+	height: 500px;
+	width: 600px;
+	height: 500px;
+}
+
+.modal-header-info {
+	color: #fff;
+	padding: 9px 15px;
+	border-bottom: 1px solid #eee;
+	background-color: #5bc0de;
+}
